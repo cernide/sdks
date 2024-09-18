@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/polyaxon/sdks/go/http_client/v1/service_model"
+	"github.com/cernide/sdks/go/http_client/v1/service_model"
 )
 
 // GetProjectDashboardReader is a Reader for the GetProjectDashboard structure.

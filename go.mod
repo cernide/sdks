@@ -1,4 +1,4 @@
-module github.com/polyaxon/sdks
+module github.com/cernide/sdks
 
 go 1.19
 

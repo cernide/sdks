@@ -54,7 +54,7 @@ option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_swagger) = {
         version: "2.4.0";
         contact:{
             name:"Polyaxon sdk";
-            url:"https://github.com/polyaxon/polyaxon";
+            url:"https://github.com/cernide/cernide";
             email:"contact@polyaxon.com";
         };
     };

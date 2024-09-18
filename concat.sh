@@ -13,7 +13,7 @@ jq -s '
 	.info.title = "Polyaxon SDKs and REST API specification." |
 	.info.description = "   " |
 	.info.version = "2.4.0" |
-	.info.contact = {"name": "Polyaxon sdk", "url": "https://github.com/polyaxon/polyaxon", "email": "contact@polyaxon.com"}
+	.info.contact = {"name": "Polyaxon sdk", "url": "https://github.com/cernide/cernide", "email": "contact@polyaxon.com"}
 	' swagger/v1/{polyaxon_sdk_apis,owner.artifact,project.artifact,run.artifact,connections.default,earlyStopping.default,hp.default,matrix.default,reference.default,run.default,schedule.default}.swagger.json > "swagger/v1/polyaxon_sdk.swagger.json"
 
 # Concat jsonschema
@@ -22,7 +22,7 @@ jq -s '
 	.info.title = "Polyaxon SDKs and REST API specification." |
   .info.description = "   " |
 	.info.version = "2.4.0" |
-	.info.contact = {"name": "Polyaxon sdk", "url": "https://github.com/polyaxon/polyaxon", "email": "contact@polyaxon.com"}
+	.info.contact = {"name": "Polyaxon sdk", "url": "https://github.com/cernide/cernide", "email": "contact@polyaxon.com"}
 	' swagger/v1/{polyaxon_sdk,jsonschema.default,k8s.default}.swagger.json > "jsonschema/v1/polyaxon_sdk.swagger.json"
 
 # Delete copied swagger files

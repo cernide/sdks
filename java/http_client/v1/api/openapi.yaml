@@ -3,7 +3,7 @@ info:
   contact:
     email: contact@polyaxon.com
     name: Polyaxon sdk
-    url: https://github.com/polyaxon/polyaxon
+    url: https://github.com/cernide/cernide
   description: '   '
   title: Polyaxon SDKs and REST API specification.
   version: 2.4.0
