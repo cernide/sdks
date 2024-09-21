@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/cernide/sdks/go/http_client/v1/service_model"
+	"github.com/cernide/sdks/v2/go/http_client/v1/service_model"
 )
 
 // DeleteOrganizationInvitationReader is a Reader for the DeleteOrganizationInvitation structure.

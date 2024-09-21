@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/cernide/sdks/go/http_client/v1/service_model"
+	"github.com/cernide/sdks/v2/go/http_client/v1/service_model"
 )
 
 // NewCreateDashboardParams creates a new CreateDashboardParams object,
