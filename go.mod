@@ -1,4 +1,4 @@
-module github.com/cernide/sdks
+module github.com/cernide/sdks/v2
 
 go 1.19
 
