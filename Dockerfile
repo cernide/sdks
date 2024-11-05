@@ -1,7 +1,7 @@
 FROM arm64v8/python:3.11.2-slim-buster
 
 # This dockerfile is intended for dev only purposes
-LABEL maintainer="Polyaxon, Inc. <contact@polyaxon.com>"
+LABEL maintainer="Robin Röper <rr@linux.com>"
 
 # build-essential for gcc
 # gpg for gosu
@@ -55,14 +55,6 @@ RUN go get -u github.com/grpc-ecosystem/grpc-gateway/protoc-gen-swagger
 RUN go install github.com/grpc-ecosystem/grpc-gateway/protoc-gen-swagger
 RUN go get -u -a github.com/go-swagger/go-swagger/cmd/swagger
 RUN go install github.com/go-swagger/go-swagger/cmd/swagger@v0.30.5
-
-# HTML openapi
-#RUN npm install -g bootprint
-#RUN npm install -g bootprint-openapi
-#RUN npm -g install html-inline
-
-# Install Python gRPC tools.
-# RUN python -m pip install grpcio grpcio-tools
 
 # AUTGOGEN
 RUN git clone https://github.com/mbrukman/autogen.git /usr/local/bin/autogen
